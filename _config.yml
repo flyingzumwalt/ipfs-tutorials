@@ -4,6 +4,7 @@ highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
+relative_permalinks: false
 
 # Setup
 title:            Template Curriculum
@@ -18,6 +19,7 @@ author:
 
 # Custom vars
 version:          0.0.1
+gems:             [jekyll-paginate, jekyll-gist]
 
 github:
   repo:           https://github.com/flyingzumwalt/jekyll-curriculum-template
