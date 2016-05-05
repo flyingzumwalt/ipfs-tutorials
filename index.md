@@ -2,12 +2,17 @@
 layout: default
 title: Home
 ---
+# Permissionless Curriculum Design
 
 ## Create a Curriculum with Git, Jekyll and Github Pages
 
 Use this template to create a web-based curriculum that can be hosted on Github Pages or any jekyll server.
 
 There's no database-just markdown files and a couple HTML templates. That's all. Everything is in a github repository, so people can fork the curriculum, add Courses, Modules and Activities, and then submit pull requests or host their own copies of the Curriculum.
+
+## About
+
+For more information about this template, how you can use it, who maintains it, and how you can contribute, go to the project's [page on github](https://github.com/flyingzumwalt/jekyll-curriculum-template).
 
 ## Usage
 
@@ -23,6 +28,7 @@ It's easy to host your curriculum on Github pages. Github's help pages about [Us
 There are lots of Jekyll Themes out there that you can apply to your curriculum.  This template is set up to work with the [pool/hyde](https://github.com/poole/hyde) theme, but using it with another theme is relatively easy.
 
 If you already have your curriculum in a git repository, you can apply your content on top of a template like this (assuming your curriculum content is in the master branch). _Note: you will probably have to resolve some merge conflicts when you run `git merge master`_
+
 ```
 git remote add hyde git@github.com:poole/hyde.git
 git fetch hyde
