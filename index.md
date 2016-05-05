@@ -16,8 +16,11 @@ For more information about this template, how you can use it, who maintains it, 
 
 ## Usage
 
-Download the contents of the git repository
-Add your own content into the "curriculum" directory
+To create your own curriculum using this template, download the contents of the git repository and add your own content into the "curriculum" directory.  That's all!
+
+### How to structure courses in the curriculum
+
+Read the [Template Curriculum](curriculum) for info about how to structure your courses, modules, and activities.
 
 ### Hosting your curriculum on Github Pages
 
