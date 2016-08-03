@@ -7,11 +7,11 @@ permalink:        pretty
 relative_permalinks: false
 
 # Setup
-title:            Template Curriculum
-tagline:          'Building Curricula with Distributed Tech'
-description:      'A template for creating Curricula that you can host on any jekyll server (ie. Github Pages)'
-url:              http://flyingzumwalt.github.io/jekyll-curriculum-template/
-baseurl:          /jekyll-curriculum-template
+title:            IPFS Tutorials
+tagline:          'Learn how to use the Decentralized Web'
+description:      'Tutorials on IPFS and its related technologies.'
+url:              http://flyingzumwalt.github.io/ipfs-tutorials/
+baseurl:          /ipfs-tutorials
 
 author:
   name:           'Matt Zumwalt'
@@ -22,4 +22,4 @@ version:          0.0.1
 gems:             [jekyll-paginate, jekyll-gist]
 
 github:
-  repo:           https://github.com/flyingzumwalt/jekyll-curriculum-template
+  repo:           https://github.com/flyingzumwalt/ipfs-tutorials
