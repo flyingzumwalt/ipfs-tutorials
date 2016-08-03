@@ -1,12 +1,6 @@
-# Jekyll Curriculum Template
+# IPFS Tutorials
 
-## Development
-
-The Curriculum Template has two branches, but only one is used for active development.
-
-- `master` for development.  **All pull requests should be submitted against `master`.**
-- `gh-pages` for our hosted site, which includes the [pool/hyde](https://github.com/poole/hyde) jekyll template. **Please avoid using this branch.**
-
+See index.md for more info.
 
 ## Author
 

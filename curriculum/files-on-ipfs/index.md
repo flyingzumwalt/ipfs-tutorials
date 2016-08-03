@@ -1,6 +1,6 @@
 ---
 layout: course
-title: Course Template
+title: Files On IPFS
 categories: templates
 ---
 
@@ -12,8 +12,9 @@ _Here's where you provide an overview of the course's subject matter_
 
 _Here's where you list key concepts for the course._
 
-* A Key Concept
-* Another Key Concept
+* Content-addressable systems: Identifying files by their cryptographic hash
+* Pinning content on the IPFS network
+* Using IPNS to dynamically point to the current version of a file
 
 ## Learning Objectives
 
@@ -24,5 +25,7 @@ For a concise explanation of Learning Objectives, read UC Denver's [Assessment &
 ## Modules
 _Here's where you list the learning modules in the course._
 
-1. **[Learning Module Template](modules/learning-module-template)**
-1. _TODO_: Another Module
+1. _TODO_: Adding a file into IPFS
+2. _TODO_: Accessing a file which is in IPFS
+3. _TODO_: Making sure that a file persists in the IPFS network
+1. **[Update Files on IPFS using IPNS](modules/update-files)**
