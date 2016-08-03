@@ -1,7 +1,7 @@
 ---
 layout: module
 title: Update Files on IPFS using IPNS
-category: ipfs
+category: files-on-ipfs
 tags: files, ipfs, ipns
 ---
 
@@ -14,6 +14,12 @@ This tutorial is tested with go-ipfs version 0.4.3-rc1. _Please update this file
 
 ## System Requirements
 
+## Goals
+
+* Use IPNS to point to a file in IPFS and update that pointer over time as the file changes
+* Use IPNS to track an entire website as it changes over time
+* Map DNS to IPNS
+
 ## Conceptual Framework
 
 Normally, updating content means replacing a file - for instance, if I update a blog post, then people will see the edited file, and not the new one.
@@ -25,18 +31,11 @@ This is where IPNS comes in, the InterPlanetary Naming System (Name Service?). I
 
 **Author Question**: Does IPNS point to a constant hash that is in your config, or does it just use your peerId? Does your IPNS hash ever change?
 
-## Goals
-
-* Use IPNS to point to a file in IPFS and update that pointer over time as the file changes
-* Use IPNS to track an entire website as it changes over time
-* Map DNS to IPNS
-
-## Activities
+## Steps
 
 _Here's where you list links to the activities in this module._
 
-1. **[Activity Template](activities/activity-template)**
-1. Add a file to IPFS
+1. **[Add a file to IPFS](activities/add-file-to-ipfs)**
 2. Set up IPNS on your node
 3. Create an IPNS entry that points to your file
 4. Modify your File and add the modified version to IPFS
